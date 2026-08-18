@@ -1,0 +1,61 @@
+.history-card{
+    background:white;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.history-card h3{
+    margin-bottom: 10px;
+    color:#2563eb;
+
+}
+
+.history-card p{
+    margin:8px 0;
+}
+
+.history-buttons{
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.history-buttons button {
+    padding: 8px 14px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    background: #2563eb;
+    color: white;
+    transition: 0.3s;
+}
+
+.history-buttons button:hover{
+    background: #1d4ed8;
+}
+.score-badge{
+    padding: 4px 10px;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+    margin-left: 8px;
+}
+
+.high-score{
+    background: #16a34a;
+}
+
+.medium-score{
+    background: #2563eb;
+}
+
+.low-score{
+    background: #dc2626;
+}
+.history-date {
+  color: #666;
+  font-size: 14px;
+  margin: 8px 0 12px;
+}
